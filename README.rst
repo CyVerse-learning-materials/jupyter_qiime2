@@ -3,10 +3,10 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-JupyterLab-QIIME2 
-=================
+QIIME2 Jupyter Lab 
+==================
 
-Goal
+Goals
 -----
 
 `QIIME 2™ <https://qiime2.org/>`_ is a next-generation microbiome bioinformatics platform that is extensible, free, open source, and community developed. 
@@ -127,8 +127,11 @@ Input and example data
 ----
 
 UPDATE: Newest version QIIME-2019.10
-----
-The new version for JupyterLab-QIIME2 in VICE now has the capabilities for in-line visualizations right in the jupyter notebook.
+````````````````````````````````````
+
+|QIIME2|_
+
+The latest version (currently v2019.10 as of 11/8/2019) for QIIME2 in VICE has the capabilities for in-line visualizations right in the jupyter notebook.
 
 .. raw:: html
 
@@ -175,6 +178,9 @@ Additional information, help
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
 ----
+
+.. |QIIME2| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
+.. _QIIME2: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=0fe69a8f-216d-4103-abd8-a2080af82876&app-id=58150fe4-01cf-11ea-8c41-008cfa5ae621
 
 |Home_Icon|_
 `Learning Center Home`_
