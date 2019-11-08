@@ -187,7 +187,6 @@ Additional information, help
 
 .. |CyVerse logo| image:: ./img/cyverse_cmyk.png
     :width: 500
-    :height: 100
 .. _CyVerse logo: http://learning.cyverse.org/
 .. |Home_Icon| image:: ./img/homeicon.png
     :width: 25
