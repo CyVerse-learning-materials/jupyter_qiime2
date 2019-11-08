@@ -6,36 +6,6 @@
 Quick start of JupyterLab-QIIME2 VICE app in DE
 ================================================
 
-UPDATE: Newest version QIIME-2019.7
-----
-The new version for JupyterLab-QIIME2 in VICE now has the capabilities for in-line visualizations right in the jupyter notebook.
-
-.. raw:: html
-
-   <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/7c20c565bf0e490084cfb8e4b62bfb63" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-
-
-Simply import the qiime2 module into the python notebook:
-
-.. code-block:: python
-
-   import qiime2
-
-And use the following command to view your .qzv files in-line with your jupyter notebook:
-
-.. code-block:: python
-
-   qiime2.Visualizations.load('demux.qzv')
-
-
-This provides all of the perks of using view.qiime2.org to visualize your .qzv files, but you don't need to change tabs. Additionally, everything is kept in the notebook which can be used as a lab notebook or for reproducibility.
-
-**IMPORTANT**: Save all needed output files in the vice directory. Files not in the vice directory will not be retained in your data store analyses folder.
-
-----
-
-
 Goal
 ----
 
@@ -153,6 +123,35 @@ Input and example data
   Do not create or store any outputs inside the input folder (gut-microbiome) as those outputs are not brought back after the analysis
 
 8. Finally, once you finish analysis, navigate to the DE tab, select the Analysis window and select the analysis, click "save and complete analysis". Upon clicking complete analysis, the analysis will be completed and all the outputs will be brought back to the analysis folder.
+
+----
+
+UPDATE: Newest version QIIME-2019.7
+----
+The new version for JupyterLab-QIIME2 in VICE now has the capabilities for in-line visualizations right in the jupyter notebook.
+
+.. raw:: html
+
+   <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/7c20c565bf0e490084cfb8e4b62bfb63" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+
+
+Simply import the qiime2 module into the python notebook:
+
+.. code-block:: python
+
+   import qiime2
+
+And use the following command to view your .qzv files in-line with your jupyter notebook:
+
+.. code-block:: python
+
+   qiime2.Visualizations.load('demux.qzv')
+
+
+This provides all of the perks of using view.qiime2.org to visualize your .qzv files, but you don't need to change tabs. Additionally, everything is kept in the notebook which can be used as a lab notebook or for reproducibility.
+
+**IMPORTANT**: Save all needed output files in the vice directory. Files not in the vice directory will not be retained in your data store analyses folder.
 
 ----
 
