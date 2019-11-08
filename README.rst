@@ -3,11 +3,11 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-Quick start of JupyterLab-QIIME2 VICE app in DE
-================================================
+JupyterLab-QIIME2 
+=================
 
 Goal
-----
+-----
 
 `QIIME 2™ <https://qiime2.org/>`_ is a next-generation microbiome bioinformatics platform that is extensible, free, open source, and community developed. 
 
@@ -27,13 +27,13 @@ In this quick start, we will show you how to launch JupyterLab-QIIME2 VICE app i
         <iframe src="https://www.youtube.com/embed/9AT2YHkduz0" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-----
+-----
 
 Prerequisites
 -------------
 
 Downloads, access, and services
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```````````````````````````````
 
 *In order to complete this tutorial you will need access to the following services/software*
 
@@ -50,7 +50,7 @@ Downloads, access, and services
 ----
 
 Platform(s)
-~~~~~~~~~~~
+``````````
 
 *We will use the following CyVerse platform(s):*
 
@@ -71,7 +71,7 @@ Platform(s)
 ----
 
 Input and example data
-~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````
 
 *In order to complete this quickstart you will need to have the following inputs prepared*
 
@@ -91,8 +91,8 @@ Input and example data
 
 -----
 
-*Get started: Launch JupyterLab-QIIME2*
----------------------------------------
+**Get started**
+---------------
 
 1. Login to the |discovery_enviornment|.
 
@@ -126,7 +126,7 @@ Input and example data
 
 ----
 
-UPDATE: Newest version QIIME-2019.7
+UPDATE: Newest version QIIME-2019.10
 ----
 The new version for JupyterLab-QIIME2 in VICE now has the capabilities for in-line visualizations right in the jupyter notebook.
 
@@ -179,7 +179,7 @@ Additional information, help
 |Home_Icon|_
 `Learning Center Home`_
 
-.. |CyVerse logo| image:: ./img/cyverse_rgb.png
+.. |CyVerse logo| image:: ./img/cyverse_cmyk.png
     :width: 500
     :height: 100
 .. _CyVerse logo: http://learning.cyverse.org/
