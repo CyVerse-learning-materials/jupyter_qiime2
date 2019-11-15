@@ -96,11 +96,9 @@ Input and example data
 
 1. Login to the |discovery_enviornment|.
 
-2. Click on **Apps** window in the DE workspace and search for and run JupyterLab-Qiime2-2018.11.
+2. Click badge |QIIME2|_ to log into CyVerse and view the App.
 
-3. Under “Analysis Name” leave the defaults or make any desired notes.
-
-4. Under “Parameters” for ‘Input folder' or 'Input files', click Browse, then navigate to and
+3. Under “Parameters” for ‘Input folder' or 'Input files', click Browse, then navigate to and
    select one or more FastQ files to analyze; Then click OK.
 
    .. Note::
@@ -108,30 +106,28 @@ Input and example data
 	    To use our example data, navigate to *Community Data >*
 	    *iplantcollaborative > example_data > qiime2  and select gut-microbiome folder.*
 
-5. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running with the "Access your running analysis here". 
+4. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running with the "Access your running analysis here". 
 
-6. Clicking on the "Access your running analysis" will open the JupyterLab-QIIME2 in another tab in the browser after a brief building phase.
+5. Clicking on the "Access your running analysis" will open the JupyterLab-QIIME2 in another tab in the browser after a brief building phase.
 
 .. Note::
 
   You will be asked to authenticate again to the JupyterLab with your CyVerse username and password
 
-7. You will see the input data under "vice" folder of the JuptyerLab. Now you can upload your own Jupyter Notebook or create one using one of the available kernels
+6. You will see the input data under "vice" folder of the JuptyerLab. Now you can upload your own Jupyter Notebook or create one using one of the available kernels
 
 .. warning::
 
   Do not create or store any outputs inside the input folder (gut-microbiome) as those outputs are not brought back after the analysis
 
-8. Finally, once you finish analysis, navigate to the DE tab, select the Analysis window and select the analysis, click "save and complete analysis". Upon clicking complete analysis, the analysis will be completed and all the outputs will be brought back to the analysis folder.
+7. Finally, once you finish analysis, navigate to the DE tab, select the Analysis window and select the analysis, click "save and complete analysis". Upon clicking complete analysis, the analysis will be completed and all the outputs will be brought back to the analysis folder.
 
 ----
 
-UPDATE: Newest version QIIME-2019.10
-````````````````````````````````````
+.. note :: 
+	UPDATE: Newest version QIIME-2019.10
 
-|QIIME2|_
-
-The latest version (currently v2019.10 as of 11/8/2019) for QIIME2 in VICE has the capabilities for in-line visualizations right in the jupyter notebook.
+	The latest version (currently v2019.10 as of 11/8/2019) for QIIME2 in VICE has the capabilities for in-line visualizations in the jupyter notebook.
 
 .. raw:: html
 
@@ -195,3 +191,6 @@ Additional information, help
 .. |discovery_enviornment| raw:: html
 
     <a href="https://de.cyverse.org/de/" target="_blank">Discovery Environment</a>
+
+.. |QIIME2| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
+.. _QIIME2: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=0fe69a8f-216d-4103-abd8-a2080af82876&app-id=58150fe4-01cf-11ea-8c41-008cfa5ae621
