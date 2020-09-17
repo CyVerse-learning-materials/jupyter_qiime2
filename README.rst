@@ -1,4 +1,4 @@
-|CyVerse logo|_
+|CyVerse_logo|_
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
@@ -162,7 +162,7 @@ Additional information, help
 
 - See the original `qiime2.org <https://qiime2.org>`_ for how to run qiime2 analysis
 
-- Search for an answer: `CyVerse Learning Center <http://learning.cyverse.org>`_ or `CyVerse Wiki <https://wiki.cyverse.org>`_
+- 
 
 - Contact CyVerse support by clicking the intercom button on the page.
 
@@ -170,8 +170,14 @@ Additional information, help
 
 **Fix or improve this documentation**
 
-- On Github: `Repo link <https://github.com/CyVerse-learning-materials/fastqc_quickstart>`_
+- Search for an answer:
+  |CyVerse Learning Center|
+- Ask us for help:
+  click |Intercom| on the lower right-hand side of the page
+- Report an issue or submit a change:
+  |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+
 
 ----
 
